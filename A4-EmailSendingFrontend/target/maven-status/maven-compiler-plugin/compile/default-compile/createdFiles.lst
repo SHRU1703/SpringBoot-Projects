@@ -1,0 +1,4 @@
+com\email\service\EmailService.class
+com\email\controller\HomeController.class
+com\email\model\Email.class
+com\email\A4EmailSendingFrontendApplication.class
