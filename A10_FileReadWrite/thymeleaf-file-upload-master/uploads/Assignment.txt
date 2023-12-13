@@ -1,0 +1,102 @@
+Assignments on Spring Boot:
+
+1. Spring Data JPA:
+   - Implement a Spring Boot application with Spring Data JPA to perform CRUD operations on an entity, e.g., Product.
+   - Define a custom query method to fetch products with a specific attribute.
+
+2. Database Relationships:
+   - Create entities with relationships (OneToOne, OneToMany, ManyToOne, ManyToMany).
+   - Implement a REST endpoint to fetch data with relationships.
+
+3. JWT Authentication:
+   - Integrate JWT authentication in your Spring Boot application.
+   - Secure a REST endpoint using JWT tokens.
+
+4. Email Sending:
+   - Implement a service to send emails using Spring Boot.
+   - Include dynamic content and attachments in the email.
+
+5. AWS S3 Integration:Date: 30 Nov 2023
+
+Tasks accomplished:
+
+
+Spring Security with Roles:
+    - Integrate Spring Security with roles (Admin, User).
+    - Secure endpoints based on user roles.
+
+Thank you sir.
+   - Connect your Spring Boot app to AWS S3.
+   - Implement functionality to upload and download files to/from S3.
+
+6. File Upload:
+   - Create a REST endpoint to handle file uploads.
+   - Support different file types and implement validation.
+
+7. Excel Data Read/Write:
+   - Implement functionality to read data from an Excel file.
+   - Create a REST endpoint to export data to an Excel file.
+
+8. PDF Data Read/Write:
+   - Integrate a library (e.g., Apache PDFBox) to read data from a PDF file.
+   - Generate a PDF document with dynamic data using Spring Boot.
+
+9. Single REST Service, Multiple Databases:
+   - Create a single REST service that interacts with two different databases (MySQL and Oracle).
+   - Implement transactions to ensure data consistency.
+
+10. File Read/Write:
+    - Develop functionality to read and write text files.
+    - Handle different encodings and large file scenarios.
+
+11. Exception Handling:
+    - Implement a global exception handler for your Spring Boot application.
+    - Define custom exceptions for specific error scenarios.
+
+12. Spring Security with Roles:
+    - Integrate Spring Security with roles (Admin, User).
+    - Secure endpoints based on user roles.
+
+13. Scheduled Tasks:
+    - Implement a scheduled task to perform a specific action periodically.
+    - Configure cron expressions for flexibility.
+
+14. Caching:
+    - Integrate caching mechanisms (e.g., using @Cacheable annotations) for specific methods.
+    - Explore different caching strategies.
+
+15. WebSocket Integration:
+    - Implement WebSocket communication for real-time updates.
+    - Create a simple chat application using WebSocket.
+
+16. Spring Boot Actuator:
+    - Integrate Spring Boot Actuator for monitoring and management endpoints.
+    - Secure sensitive actuator endpoints.
+
+17. REST Documentation:
+    - Use Springfox Swagger or another tool to generate API documentation.
+    - Include detailed information about your RESTful endpoints.
+
+
+Happy coding!
+
+
+
+
+
+
+
+server.port=6000
+
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.datasource.url=jdbc:mysql://localhost:3306/datajpa?createDatabaseIfNotExist=true&useUnicode=true
+spring.datasource.username=root
+spring.datasource.password=krishna
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+
+
+
